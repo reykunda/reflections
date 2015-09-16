@@ -26,4 +26,8 @@ What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 Merging two branches consolidates the changes in each branch since their divergence.
 It is represented in the diagram as merging the two instead of committing one
-branch over the other because changes from both branches are saved. 
+branch over the other because changes from both branches are saved.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Fast, git shows you the changes for the merge
+Cons: Conflicts need to be resolved manually
