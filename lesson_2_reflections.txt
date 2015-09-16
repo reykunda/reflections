@@ -18,3 +18,12 @@ What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 When you want to add multiple experimental changes to the code.
 Branches let you keep the changes separate.
+
+How do the diagrams help you visualize the branch structure?
+They allow you to see commits that you would not be able to see through git log.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+Merging two branches consolidates the changes in each branch since their divergence.
+It is represented in the diagram as merging the two instead of committing one
+branch over the other because changes from both branches are saved. 
